@@ -79,29 +79,29 @@ print("""
         """)
 while True:
     userOption = int(input("Choose an option to execute to the array: "))
-    if userOption >= 1 and userOption <=7:
+    if userOption >= 1 and userOption <=6:
         break
-        
+    
     else:
         print("Invalid option. Please choose from the menu.")
 
-if userOption =="1":
+if userOption ==1:
     firstOption()
 
-elif userOption =="2":
+elif userOption ==2:
                 # option 2
     secondOption()
 
-elif userOption =="3":
+elif userOption ==3:
                 # option 3
     thirdOption()
 
-elif userOption =="4":
+elif userOption ==4:
     fourthOption()
                 
-elif userOption =="5":
+elif userOption ==5:
     fifthOption()
                 
-elif userOption =="6":
+elif userOption ==6:
     sixthOption()
                 
