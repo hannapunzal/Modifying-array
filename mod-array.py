@@ -73,9 +73,8 @@ print("""\033[1;36m
         2. -> Insert an element
         3. -> Modify an element
         4. -> Delete an element
-        5. Arrange in ascending order
+        5. -> Arrange in ascending order
         6. -> Arrange in descending order
-        7. -> Exit the program
         """)
 while True:
     userOption = int(input("\033[1;33mChoose an option to execute to the array: "))
